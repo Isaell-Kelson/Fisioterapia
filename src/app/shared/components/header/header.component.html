@@ -1,0 +1,30 @@
+<mat-toolbar class="toolbar">
+  <img class="logo" ngSrc="assets/logo.png" alt="" height="120" width="120">
+  <div class="toolbar__title-container">
+    <h1 class="toolbar__title">Roberta Karlize</h1>
+    <h2 class="toolbar__subtitle">Saúde em Movimento</h2>
+  </div>
+  <div class="toolbar__links" [ngClass]="{'toolbar__links--active': menuOpen}">
+    <a class="toolbar__link" routerLink="/home">Home</a>
+    <a class="toolbar__link" routerLink="/about">About</a>
+    <a class="toolbar__link" routerLink="/contact">Contact</a>
+  </div>
+  <div class="toolbar__hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+
+  <!-- Botão de contato no WhatsApp (Desktop) -->
+  <a class="whatsapp-button"
+     href="https://wa.me/SEU_NUMERO_DE_TELEFONE?text=Olá,%20gostaria%20de%20saber%20mais%20informações."
+     target="_blank">
+    <fa-icon [icon]="faWhatsapp"></fa-icon>
+    Entre em contato
+  </a>
+
+  <!-- Botão de contato no WhatsApp (Mobile) -->
+  <a class="whatsapp-button-mobile"
+     href="https://wa.me/SEU_NUMERO_DE_TELEFONE?text=Olá,%20gostaria%20de%20saber%20mais%20informações."
+     target="_blank">
+    <fa-icon [icon]="faWhatsapp"></fa-icon>
+  </a>
+</mat-toolbar>

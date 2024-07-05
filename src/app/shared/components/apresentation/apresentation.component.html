@@ -1,15 +1,19 @@
-<section class="apresentation__section">
-  <picture class="apresentation__image-container">
-    <img ngSrc="assets/fisio3.jpg" alt="photo" class="apresentation__image" width="10" height="10">
-  </picture>
-  <div class="apresentation__container">
-    <div class="apresentation__content">
-      <div class="apresentation__text-container">
-        <h1 class="apresentation__title">Roberta Karlize: Fisioterapia Pediátrica Especializada</h1>
-        <p class="apresentation__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+<div [@openClose]="isOpen ? 'open' : 'close'" class="animated-box" (click)="toggle()">
+  <section class="apresentation__section ">
+    <picture class="apresentation__image-container">
+      <img ngSrc="assets/fisio3.jpg" alt="photo" class="apresentation__image" width="10" height="10">
+    </picture>
+    <div class="apresentation__container">
+      <div class="apresentation__content">
+        <div class="apresentation__text-container">
+          <h1 class="apresentation__title">Roberta Karlize: Fisioterapia Pediátrica Especializada</h1>
+          <p class="apresentation__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>

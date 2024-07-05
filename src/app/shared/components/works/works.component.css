@@ -1,0 +1,56 @@
+.section__background {
+  background-image: url("/assets/wave.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.section__titles {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+.section__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section__paragraph {
+  font-size: 18px;
+}
+
+.works__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.work-item {
+  text-align: center;
+}
+
+.rounded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.work-text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+

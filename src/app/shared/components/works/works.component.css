@@ -54,3 +54,41 @@
   color: #333;
 }
 
+@media screen and (max-width: 768px) {
+  .section__background {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .section__titles {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+  .section__title {
+    font-size: 30px;
+  }
+
+  .section__paragraph {
+    font-size: 16px;
+  }
+
+  .works__container {
+    gap: 50px;
+  }
+
+  .work-item {
+    margin-bottom: 20px;
+  }
+
+  .rounded-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .work-text {
+    font-size: 10px;
+  }
+
+}
+

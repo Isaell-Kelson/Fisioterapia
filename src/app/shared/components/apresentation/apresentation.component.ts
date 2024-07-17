@@ -22,10 +22,10 @@ import { animate, state, style, transition, trigger } from "@angular/animations"
         transform: 'scale(0)'
       })),
       transition('open => close', [
-        animate('0.5s')
+        animate('1s')
       ]),
       transition('close => open', [
-        animate('0.5s')
+        animate('1s')
       ])
     ])
   ]

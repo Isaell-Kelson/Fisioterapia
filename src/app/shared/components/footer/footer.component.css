@@ -1,0 +1,146 @@
+.footer {
+  background-color: #81e6d9;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__info, .footer__links, .footer__contact, .footer__social {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer__info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff66b2;
+}
+
+.footer__info p {
+  font-size: 1rem;
+}
+
+.footer__links h3, .footer__contact h3, .footer__social h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ff66b2;
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li {
+  margin: 5px 0;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+  color: #ff66b2;
+}
+
+.footer__social a {
+  margin-right: 10px;
+}
+
+.footer__social img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer__bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff66b2;
+}
+
+.footer__bottom p {
+  margin: 0;
+}
+
+.footer__developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer__developer-name {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer__developer-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: -11px;
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__info, .footer__links, .footer__contact, .footer__social {
+    min-width: auto;
+    margin: 10px 0;
+  }
+
+  .footer__info h2, .footer__links h3, .footer__contact h3, .footer__social h3 {
+    font-size: 1.1rem;
+  }
+
+  .footer__info p {
+    font-size: 0.9rem;
+  }
+
+  .footer__social img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__info, .footer__links, .footer__contact, .footer__social {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer__info h2, .footer__links h3, .footer__contact h3, .footer__social h3 {
+    font-size: 1rem;
+  }
+
+  .footer__info p {
+    font-size: 0.85rem;
+  }
+
+  .footer__social img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer__bottom {
+    padding: 10px;
+  }
+}

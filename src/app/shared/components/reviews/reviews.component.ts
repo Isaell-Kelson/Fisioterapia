@@ -14,6 +14,9 @@ export class ReviewsComponent {
   reviews = [
     { quote: 'Serviço excelente! Recomendo a todos.', author: 'João Silva' },
     { quote: 'Muito satisfeita com o atendimento.', author: 'Maria Oliveira' },
+    { quote: 'Qualidade impecável, voltarei sempre!', author: 'Carlos Souza' },
+    { quote: 'Qualidade impecável, voltarei sempre!', author: 'Carlos Souza' },
+    { quote: 'Qualidade impecável, voltarei sempre!', author: 'Carlos Souza' },
     { quote: 'Qualidade impecável, voltarei sempre!', author: 'Carlos Souza' }
   ];
 }

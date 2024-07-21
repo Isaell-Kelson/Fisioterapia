@@ -6,11 +6,21 @@ import {ApresentationComponent} from "./shared/components/apresentation/apresent
 import {WorksComponent} from "./shared/components/works/works.component";
 import {ReviewsComponent} from "./shared/components/reviews/reviews.component";
 import {CarouselComponent} from "./shared/components/carousel/carousel.component";
+import {MapComponent} from "./shared/components/map/map.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, WelcomeComponent, ApresentationComponent, WorksComponent, ReviewsComponent, CarouselComponent],
+  imports: [
+    RouterOutlet,
+    HeaderComponent,
+    WelcomeComponent,
+    ApresentationComponent,
+    WorksComponent,
+    ReviewsComponent,
+    CarouselComponent,
+    MapComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,4 +1,5 @@
 .toolbar {
+  position: fixed;
   padding: 10px;
   list-style: none;
   display: flex;
@@ -6,6 +7,7 @@
   background: rgba(200, 200, 200, 0.8);
   color: #333;
   min-height: 80px;
+  z-index: 1001;
 }
 
 .toolbar__title-container {
@@ -61,7 +63,7 @@
   display: none;
 }
 
-/* Estilos para mobile */
+
 @media (max-width: 768px) {
   .toolbar {
     justify-content: flex-start;
@@ -74,11 +76,13 @@
 
   .toolbar__title {
     font-size: 1.2rem;
+    margin-left: 5px;
   }
 
   .toolbar__subtitle {
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
+    margin-top: -5px;
   }
 
   .toolbar__hamburger {

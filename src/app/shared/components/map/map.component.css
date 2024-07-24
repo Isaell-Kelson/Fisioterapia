@@ -16,13 +16,13 @@
 .map-section__title {
   font-size: 40px;
   color: #333;
-  margin: 0;
+  padding: 10px;
 }
 
 .map-section__subtitle {
   font-size: 18px;
   color: #666;
-  margin: 10px 0 0;
+  margin-bottom: 6rem;
 }
 
 .map-section__content {
@@ -74,11 +74,12 @@
 
   .map-section__subtitle {
     font-size: 16px;
+    margin-top: -20px;
   }
 
   .map-section__content {
     flex-direction: column;
-    gap: 10px;
+    margin-top: -50px;
   }
 
   .map-section__map,

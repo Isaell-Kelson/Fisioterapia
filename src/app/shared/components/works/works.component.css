@@ -40,6 +40,8 @@
   text-align: center;
 }
 
+
+
 .rounded-image {
   width: 150px;
   height: 150px;
@@ -48,20 +50,23 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.work-text {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #333;
+.works__container p {
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
+  section {
+    margin-top: -150px;
+  }
   .section__background {
     height: auto;
     padding: 50px 20px;
   }
 
   .section__titles {
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 50px;
   }
 
@@ -74,7 +79,7 @@
   }
 
   .works__container {
-    gap: 50px;
+    gap: 20px;
   }
 
   .work-item {

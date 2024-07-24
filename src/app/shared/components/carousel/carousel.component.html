@@ -7,7 +7,7 @@
       Eternizando momentos com meus pequenos e comemorando suas evoluções.
     </p>
   </div>
-  <p-carousel [value]="images" [circular]="true" class="carousel">
+  <p-carousel [value]="images" [circular]="true" [autoplayInterval]="2000" class="carousel">
     <ng-template pTemplate="item" let-item>
       <div class="carousel__item">
         <img [src]="item.source" [alt]="item.alt" class="carousel__image">

@@ -40,14 +40,18 @@
   text-align: center;
 }
 
-
-
 .rounded-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 3px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button[mat-stroked-button] {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: slategrey 0px 10px 10px;
 }
 
 .works__container p {
@@ -66,7 +70,7 @@
   }
 
   .section__titles {
-    margin-top: 250px;
+    margin-top: 290px;
     margin-bottom: 50px;
   }
 
